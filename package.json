@@ -1,0 +1,22 @@
+{
+  "name": "at-server",
+  "version": "1.0.0",
+  "description": "server for action technique app",
+  "scripts": {
+    "start": "node src/startServer.js",
+    "live": "nodemon src/startServer.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Schwartz <daniel.schwartz@applitools.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "nodemon": "^1.18.11",
+    "prettier": "^1.17.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
