@@ -1,7 +1,8 @@
+require('dotenv').config();
 const express = require('express');
 const path = require('path');
 const app = express();
-const port = 3000;
+const port = process.env.PORT;
 
 /*
  * We currently serve only base URLs i.e. not http://base/something/
